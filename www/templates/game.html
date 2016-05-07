@@ -1,0 +1,26 @@
+<ion-view title="Spelletje">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <ion-list>
+      <div class="instruction">Je hebt nog {{livesRemaining}} kansen</div>
+      <div class="board">
+        <span class='boardLetter' ng-repeat="boardLetter in boardLetters" type="item-text-wrap">
+          {{boardLetter.displayLetter}}
+        </span>
+        <p>&nbsp;</p>
+        <div class="instruction">Al gespeeld:</div>
+        <div class='guess {{guess.class}}' ng-repeat="guess in guesses">
+          <span class='guessText'>
+            {{guess.letter}}
+          </span>
+        </div>
+        <br clear=all>
+        <div>
+          <input name="guess" class='yourGuess' type="text" width=2 ng-model="guess.letter" ng-change="takeGuess();" autofocus placeholder="Raden">
+        </div>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

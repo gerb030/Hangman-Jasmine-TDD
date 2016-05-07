@@ -1,0 +1,65 @@
+/* Empty. Add your own CSS if you like */
+.instruction {
+  text-align:center;
+}
+.board {
+  text-align:center;
+}
+
+.scroll-content {
+    background: url("../img/background.jpg") 0px 0px;
+  }
+
+.boardLetter {
+  font-size:24pt;
+  padding-left padding-right: 2%;
+}
+
+.yourGuess {
+  text-align:center;
+  font-size:18px;
+  width:20%;
+  margin-left:40%;
+  border-radius: 8px;
+}
+
+.guess {
+  border: 2px solid #828282;
+  border-radius:6px;
+  padding:1%;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin:0.5%;
+}
+
+.guessText {
+  vertical-align: middle;
+  text-align: center;
+  font-family: Helvetica;
+  font-size:18px;
+  font-weight: bold;
+}
+
+.yours {
+  background: #fcf8d6; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #fcf8d6 0%, #c9c0ab 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fcf8d6), color-stop(100%,#c9c0ab)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #fcf8d6 0%,#c9c0ab 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #fcf8d6 0%,#c9c0ab 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #fcf8d6 0%,#c9c0ab 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #fcf8d6 0%,#c9c0ab 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf8d6', endColorstr='#c9c0ab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.theirs {
+  background: #f1d6fc; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #f1d6fc 0%, #bdafcc 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f1d6fc), color-stop(100%,#bdafcc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #f1d6fc 0%,#bdafcc 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #f1d6fc 0%,#bdafcc 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #f1d6fc 0%,#bdafcc 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #f1d6fc 0%,#bdafcc 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1d6fc', endColorstr='#bdafcc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
